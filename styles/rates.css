@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Catamaran&family=Cinzel:wght@600;700;900&display=swap');
+
+/*The default nav bar and footer used in every single page.*/
+nav {
+  background-color: #003D2E;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  font-family: Catamaran, serif;
+}
+.logo {
+  font-size: 35px;
+  font-weight: 900;
+  font-family: Cinzel, serif;
+  display: flex;
+  align-items: center;
+}
+.logo a {
+  text-decoration: none;
+  background: -webkit-linear-gradient(white, #7DBA84);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.menu {
+  display: flex;
+  justify-content: flex-end;
+}
+.menu a {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px;
+  font-size: 20px;
+}
+.menu a:hover {
+  background-color: #249445;
+}
+footer {
+    background-color: #003D2E;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    font-family: Cinzel, serif;
+}
+/*-------------------------------*/
+
+body{
+    text-align: center;
+    font-family: Catamaran, serif;
+    background-color: #FDF9EC;
+}
+
+td, tr, th{
+    border: 2px solid black;
+    font-size: 27px;
+    padding: 10px;
+}
+
+h1{
+    font-size: 55px;
+}
+
+table{
+    display: flex;
+    justify-content: center;
+    border-collapse: collapse;
+    background-color: white;
+}
+
+.table-div{
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+tr:hover{
+    background-color: #7DBA84;
+    color:darkred;
+}
+

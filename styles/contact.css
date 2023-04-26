@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Catamaran&family=Cinzel:wght@600;700;900&display=swap');
+
+/*The default nav bar and footer used in every single page.*/
+nav {
+  background-color: #003D2E;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  font-family: Catamaran, serif;
+}
+.logo {
+  font-size: 35px;
+  font-weight: 900;
+  font-family: Cinzel, serif;
+  display: flex;
+  align-items: center;
+}
+.logo a {
+  text-decoration: none;
+  background: -webkit-linear-gradient(white, #7DBA84);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.menu {
+  display: flex;
+  justify-content: flex-end;
+}
+.menu a {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px;
+  font-size: 20px;
+}
+.menu a:hover {
+  background-color: #249445;
+}
+footer {
+    background-color: #003D2E;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    font-family: Cinzel, serif;
+}
+/*-------------------------------*/
+
+body{
+    background-color: #FDF9EC;
+}
+.contact-wrapper{
+    width: 1000px;
+    margin: 20px auto;
+    background-color: #fff;
+    box-shadow: 0px 2px 4px #333;
+    border-radius: 5px;
+    padding: 20px;
+    overflow: hidden;
+    font-family: Catamaran, serif;
+    text-align: center;
+    animation-name: anime1;
+    animation-duration: 50s;
+    animation-iteration-count: infinite;
+}
+.contact-wrapper h1, h1{
+    font-family: Cinzel, serif;
+    font-size: 35px;
+    text-align: center;
+}
+.contact-wrapper p{
+    font-size:25px;
+}
+
+#bottom-text{
+  padding: 90px;
+}
+@keyframes anime1 {
+  0% {
+    background: white;
+  }
+  25% {
+    background: white;
+  }
+  50% {
+    background: #b0e0b6;
+  }
+  75% {
+    background: white;
+  }
+  100% {
+    background: white;
+  }
+}

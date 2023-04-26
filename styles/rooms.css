@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Catamaran&family=Cinzel:wght@600;700;900&display=swap');
+
+/*The default nav bar and footer used in every single page.*/
+nav {
+  background-color: #003D2E;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  font-family: Catamaran, serif;
+}
+.logo {
+  font-size: 35px;
+  font-weight: 900;
+  font-family: Cinzel, serif;
+  display: flex;
+  align-items: center;
+}
+.logo a {
+  text-decoration: none;
+  background: -webkit-linear-gradient(white, #7DBA84);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.menu {
+  display: flex;
+  justify-content: flex-end;
+}
+.menu a {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px;
+  font-size: 20px;
+}
+.menu a:hover {
+  background-color: #249445;
+}
+footer {
+  background-color: #003D2E;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  font-family: Cinzel, serif;
+}
+/*-------------------------------*/
+
+body{
+  font-family: Catamaran, serif;
+  background-color: #FDF9EC;
+}
+
+img{
+  float: left;
+  height:400px;
+  width:700px;
+  padding-top:40px;
+  padding-bottom:40px;
+  transition: transform .2s;
+}
+
+.first{
+  margin-top: 70px;
+}
+
+.first,.second, .third{
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.text{
+  display: flex;
+  flex-direction: column;
+  padding-left: 200px;
+  padding-right: 200px;
+}
+
+.text h1{
+  font-size: 35px;
+}
+
+.text p{
+  font-size: 20px;
+}
+
+#images {
+  position: relative;
+  height: 400px;
+  width: 700px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#images img {
+  position:absolute;
+  top: 80px;
+  left: 0;
+  right: 0;
+  bottom: 80px;
+  margin: auto;
+  max-height: 100%;
+  max-width: 100%;
+  transition: opacity 5s ease-in-out;
+}
+
+#images img.top:hover {
+  opacity:0;
+}
+
